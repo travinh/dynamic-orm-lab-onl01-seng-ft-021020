@@ -19,7 +19,9 @@ class InteractiveRecord
   end
   
   def initialize(option={})
-    option.each do |
+    option.each do |key,value|
+      
+    end
   end
   
 end
