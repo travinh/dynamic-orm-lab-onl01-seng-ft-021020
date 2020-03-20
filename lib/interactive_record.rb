@@ -20,8 +20,10 @@ class InteractiveRecord
   
   def initialize(option={})
     option.each do |key,value|
-      self.send("#{key}=")
+      self.send("#{key}=",value)
     end
   end
+  
+  
   
 end
